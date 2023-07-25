@@ -1,0 +1,18 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "Simple, colorful, essential nv1.0  1.20 \ndiscord.gg/swim | Ported with Swimfan72's Auto Port ",
+        "name": "Brilliant 1",
+        "uuid": "7bef976e-52ca-42fa-82e2-60b1c1c93b4c",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 12, 1]
+    },
+    "modules": [
+        {
+            "description": "Simple, colorful, essential nv1.0  1.20 \ndiscord.gg/swim | Ported with Swimfan72's Auto Port ",
+            "type": "resources",
+            "uuid": "539ac4bb-d3d0-4f92-b060-2565210abf72",
+            "version": [1, 0, 0]
+        }
+    ]
+}
