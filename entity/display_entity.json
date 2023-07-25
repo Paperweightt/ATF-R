@@ -1,0 +1,21 @@
+//bridge-file-version: #1
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "atf:display",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/ATF/placeholder"
+			},
+			"geometry": {
+				"default": "geometry.placeholder"
+			},
+			"render_controllers": [
+				"controller.render.default_placeholder"
+			]
+		}
+	}
+}
