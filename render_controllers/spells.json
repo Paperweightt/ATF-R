@@ -1,0 +1,53 @@
+//bridge-file-version: #3
+{
+	"format_version": "1.8.0",
+	"render_controllers": {
+		"controller.render.outer_spellorb": {
+			"arrays": {
+				"textures": {
+					"Array.spelltype": [
+						"Texture.fire"
+					]
+				}
+			},
+			"geometry": "Geometry.outer",
+			"materials": [
+				{
+					"*": "Material.outer"
+				}
+			],
+			"textures": [
+				"Array.spelltype[query.mark_variant]"
+			]
+		},
+		"controller.render.inner_spellorb": {
+			"arrays": {
+				"textures": {
+					"Array.spelltype": [
+						"Texture.fire"
+					]
+				}
+			},
+			"geometry": "Geometry.inner",
+			"materials": [
+				{
+					"*": "Material.inner"
+				}
+			],
+			"textures": [
+				"Array.spelltype[query.mark_variant]"
+			]
+		},
+		"controller.render.default_spell": {
+			"textures": [
+				"Texture.default"
+			],
+			"materials": [
+				{
+					"*": "Material.default"
+				}
+			],
+			"geometry": "Geometry.default"
+		}
+	}
+}

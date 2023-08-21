@@ -1,0 +1,20 @@
+{
+	"format_version": "1.10.0",
+	"minecraft:client_entity": {
+		"description": {
+			"identifier": "atf:spell_orb",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/spells/spell_orb"
+			},
+			"geometry": {
+				"default": "geometry.spell_orb"
+			},
+			"render_controllers": [
+				"controller.render.default_spell"
+			]
+		}
+	}
+}

@@ -1,0 +1,35 @@
+//bridge-file-version: #4
+{
+	"format_version": "1.17.0",
+	"minecraft:attachable": {
+		"description": {
+			"identifier": "atf:iron_longsword",
+			"materials": {
+				"default": "entity_alphatest"
+			},
+			"textures": {
+				"default": "textures/models/atf/sword_pallete"
+			},
+			"geometry": {
+				"default": "geometry.item_longsword"
+			},
+			"animations": {
+				"third_person": "animation.longsword.third_person",
+				"first_person": "animation.longsword.first_person"
+			},
+			"scripts": {
+				"animate": [
+					{
+						"third_person": "!c.is_first_person"
+					},
+					{
+						"first_person": "c.is_first_person"
+					}
+				]
+			},
+			"render_controllers": [
+				"controller.render.item_default"
+			]
+		}
+	}
+}
